@@ -13,15 +13,6 @@
   --color-medium: hsl(0deg, 0%, 40%);
   --color-light: hsl(0deg, 0%, 60%);
   --color-white: hsl(0deg, 0%, 100%);
-
-  --spacing-8: 8px;
-  --spacing-16: 16px;
-  --spacing-24: 24px;
-  --spacing-32: 32px;
-  --spacing-48: 48px;
-  --spacing-64: 64px;
-  --spacing-96: 96px;
-  --spacing-128: 128px;
 }
 
 html,
@@ -66,7 +57,7 @@ main {
 }
 
 .intro-chunk .title {
-  margin-bottom: var(--spacing-48);
+  margin-bottom: 48px;
 }
 
 .intro-chunk strong {
