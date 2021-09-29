@@ -1,6 +1,27 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
+}
+
+:root {
+  --primary-green: hsl(160deg, 100%, 30%);
+  --secondary-gold-lighter: hsl(45deg, 100%, 50%);
+  --secondary-gold-darker: hsl(45deg, 100%, 40%);
+  --color-black: hsl(0deg, 0%, 0%);
+  --color-very-dark: hsl(0deg, 0%, 10%);
+  --color-dark: hsl(0deg, 0%, 30%);
+  --color-medium: hsl(0deg, 0%, 40%);
+  --color-light: hsl(0deg, 0%, 60%);
+  --color-white: hsl(0deg, 0%, 100%);
+
+  --spacing-8: 8px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+  --spacing-96: 96px;
+  --spacing-128: 128px;
 }
 
 html,
@@ -10,3 +31,46 @@ body {
 }
 
 /* Add styles here! */
+main {
+  border-top: 5px solid var(--color-medium);
+  background-color: var(--color-light);
+  padding-top: 64px;
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: auto;
+}
+
+.intro-chunk {
+  width: 100%;
+  margin-top: var(--spacing-64);
+  margin-bottom: var(--spacing-48);
+  padding: 16px;
+}
+
+.intro-chunk .title {
+  margin-bottom: var(--spacing-48);
+}
+
+.intro-chunk strong {
+  color: var(--primary-green);
+}
+
+.card {
+  width: 100%;
+  background-color: var(--color-white);
+  border-bottom: 5px solid var(--color-medium);
+  padding: 0 16px;
+  padding-top: 5px;
+}
+
+.indented-heading {
+  width: fit-content;
+  background-color: var(--secondary-gold-lighter);
+  border-bottom: 5px solid var(--secondary-gold-darker);
+  padding: 16px 32px;
+  margin-left: -32px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
