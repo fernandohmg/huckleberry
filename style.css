@@ -28,9 +28,13 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: var(--color-light);
 }
 
 /* Add styles here! */
+header {
+  background-color: var(--color-white);
+}
 main {
   border-top: 5px solid var(--color-medium);
   background-color: var(--color-light);
@@ -38,15 +42,14 @@ main {
 }
 
 .max-width-wrapper {
-  max-width: 800px;
+  max-width: 550px;
   margin: auto;
 }
 
 .intro-chunk {
   width: 100%;
-  margin-top: var(--spacing-64);
-  margin-bottom: var(--spacing-48);
-  padding: 16px;
+  padding: 64px 16px 48px 16px;
+  max-width: 300px;
 }
 
 .intro-chunk .title {
