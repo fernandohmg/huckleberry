@@ -32,17 +32,30 @@ body {
 }
 
 /* Add styles here! */
+
+p {
+  line-height: 1.5rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
 header {
   background-color: var(--color-white);
 }
+
 main {
   border-top: 5px solid var(--color-medium);
-  background-color: var(--color-light);
   padding-top: 64px;
 }
 
 .max-width-wrapper {
-  max-width: 550px;
+  max-width: 560px;
   margin: auto;
 }
 
